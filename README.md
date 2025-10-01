@@ -7,8 +7,3 @@ Creating bot where you can commands directly from Discord.
 .help - Displays a list of available commands and their descriptions.
 
 .(command) - Executes the specified command and returns the output.
-
-.time - Displays the current server time.
-
-
-.schedule (task) (time) - Schedules a task to be executed at a specified time. (Extra)

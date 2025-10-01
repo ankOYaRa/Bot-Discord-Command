@@ -22,14 +22,30 @@ bot = commands.Bot(command_prefix='.', intents=intents)
 async def on_ready():
   print(f'Bot is ready. Logged in as {bot.user}.')
 
+  game = discord.Activity(type=discord.ActivityType.watching,
+                          name="The Realm of DisChill")
+  await bot.change_presence(activity=game)
 
 
-# Event: New member joins the server
-@bot.event
-async def on_member_join(member):
-    channel = discord.utils.get(member.guild.text_channels, name='general')
-    if channel:
-        await channel.send(f'Welcome to the server, {member.mention}!')
+
+# # Event: New member joins the server
+# @bot.event
+# async def on_member_join(member):
+#   channel = discord.utils.get(member.guild.text_channels, name='general')
+#   if channel:
+#     # Create a welcome embed card
+#     embed = discord.Embed(
+#         title=f"Welcome to {member.guild.name}!",
+#         description=f"Hello {member.mention}! We're glad to have you join us."
+#     )
+#
+#     # Add member information
+#     embed.add_field(name="Joined", value=member.joined_at.strftime("%B %d, %Y"), inline=True)
+#
+#     # Set thumbnail to member's avatar
+#     embed.set_thumbnail(url=member.avatar.url if member.avatar else member.default_avatar.url)
+#
+#     await channel.send(embed=embed)
 
 
 
@@ -49,7 +65,7 @@ async def list(ctx):
     aliases = list_command.aliases
 
     embed.title = ("Commands List"
-                   "\n--------------------\n")
+                   "\n- - - - - - - - - - - - - - - - - - - -\n")
     embed.description = "\n".join(aliases)
 
   # Set image based on the command used
@@ -64,6 +80,11 @@ async def list(ctx):
 
 
   await ctx.send(embed=embed)
+
+
+
+
+
 
 
 
