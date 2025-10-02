@@ -1,8 +1,11 @@
 import discord
 from discord.ext import commands
+from keep_alive import start
 import logging
 from dotenv import load_dotenv
 import os
+
+start() #Start the keep_alive server ##Command to test bot
 
 # Load environment variables from .env file
 load_dotenv()
@@ -51,8 +54,9 @@ async def on_ready():
 
 # Command: Responds with an embedded image
 @bot.command(aliases=["2", "hidup", "ngawor", "ksabar", "gamebayi", "taste",
-                      "susu", "skip", "sekip", "aura", "hitam", "bukan",
-                      "besok", "minggir", "ngetik", "ngocok", "anak", "romantis"])
+                      "susu", "sekip", "aura", "hitam", "bukan",
+                      "besok", "minggir", "ngetik", "ngocok", "anak",
+                      "romantis", "gtw"])
 #Remember
 # to add
 # aliases here
@@ -111,6 +115,8 @@ async def list(ctx):
     embed.set_image(url="https://media.discordapp.net/attachments/1422464446017699840/1423302711310418030/image.png?ex=68dfd172&is=68de7ff2&hm=42cc4ff94295368d38a0f976c6aac2429bb3ad88d94c0af3a5778a196dcfb868&=&format=webp&quality=lossless&width=591&height=268")
   elif command_used == "romantis":
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1423306625418264667/image.png?ex=68dfd517&is=68de8397&hm=b0321780f900570d70e734117d2661a343f1b5730432801c92e836e957e94260&")
+  elif command_used == "gtw":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1423321325564592188/image.png?ex=68dfe2c8&is=68de9148&hm=e9f9378cc6249d2b60f9bcc117cedc82dd078f86eebf7e77c7b54e5e6cb77669&")
 
   await ctx.send(embed=embed)
 
