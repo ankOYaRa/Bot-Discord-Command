@@ -56,7 +56,7 @@ async def on_ready():
 @bot.command(aliases=["2", "hidup", "ngawor", "ksabar", "gamebayi", "taste",
                       "susu", "sekip", "aura", "hitam", "bukan",
                       "besok", "minggir", "ngetik", "ngocok", "anak",
-                      "romantis", "gtw"])
+                      "romantis", "gtw", "stecu", "ah", "fine", "pembohong", "otw"])
 #Remember
 # to add
 # aliases here
@@ -117,6 +117,47 @@ async def list(ctx):
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1423306625418264667/image.png?ex=68dfd517&is=68de8397&hm=b0321780f900570d70e734117d2661a343f1b5730432801c92e836e957e94260&")
   elif command_used == "gtw":
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1423321325564592188/image.png?ex=68dfe2c8&is=68de9148&hm=e9f9378cc6249d2b60f9bcc117cedc82dd078f86eebf7e77c7b54e5e6cb77669&")
+  elif command_used == "stecu":
+    embed.set_image(url="https://tenor.com/view/spongebob-twerk-krusty-krab-ass-booty-gif-3499652949276583154")
+  elif command_used == "ah":
+    embed.set_image(url="https://tenor.com/view/nuggetand-cat-car-cat-meme-cats-gif-13549128190129307854")
+  elif command_used == "fine":
+    embed.set_image(url="https://tenor.com/view/crash-and-burn-gif-27090273")
+  elif command_used == "pembohong":
+    embed.set_image(url="https://tenor.com/view/pembohonk-publik-pembohonk-meme-meme-jomok-meme-orang-hitam-gif-6592882248539381254")
+  elif command_used == "otw":
+    embed.set_image(url="https://tenor.com/view/capybara-crocodile-alligator-riding-on-the-way-gif-27496959")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+
 
   await ctx.send(embed=embed)
 
