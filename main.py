@@ -117,24 +117,24 @@ async def list(ctx):
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1423306625418264667/image.png?ex=68dfd517&is=68de8397&hm=b0321780f900570d70e734117d2661a343f1b5730432801c92e836e957e94260&")
   elif command_used == "gtw":
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1423321325564592188/image.png?ex=68dfe2c8&is=68de9148&hm=e9f9378cc6249d2b60f9bcc117cedc82dd078f86eebf7e77c7b54e5e6cb77669&")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
+  elif command_used == "muak":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424012745581269084/images.png?ex=68e266b7&is=68e11537&hm=92e8824183abeaef1c1c5296e465ae20a4f81e46c5756e771f67e7cdac825a7e&")
+  elif command_used == "aas":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424014037951320104/1f6bd6cd47e307759f4dad1ad2ab273a.png?ex=68e267eb&is=68e1166b&hm=8bc73da5e253e45e97bd4332d8eab8dd6cfc959d93d694f3fe81d92b0a3baa92&")
+  elif command_used == "santai":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424014461504852101/sdgs.png?ex=68e26850&is=68e116d0&hm=faed9d3db1d4b2205cdece6d176b65c6a0324f9cc90838c61608840b6a8fd5ad&")
+  elif command_used == "asu":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424015262201679986/ed26f633d4db72061746ef33d13084e0.png?ex=68e311cf&is=68e1c04f&hm=4eca7491a113cd3640407b4d9c91d64b2cdc72a5ca19fdc14762999b4062a914&")
+  elif command_used == "najis":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424015282707370005/Z.png?ex=68e311d4&is=68e1c054&hm=e046b4b721bb057dc51b86a95435bd9f1db032dccc75ca78899b2e52d5903d26&")
+  elif command_used == "gaterima":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424015429956800563/images.png?ex=68e311f7&is=68e1c077&hm=564e9c441e779d3a34922b56bea0b43b1c4703c2e930abddfe43720b153c0ceb&")
+  elif command_used == "menggoda":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424015816135016558/images.png?ex=68e31253&is=68e1c0d3&hm=9ba39e5e2d1e67731e807c0147593a5a755a3913b7a8340c52478872fe6cb080&")
+  elif command_used == "bangun":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424016097644118126/f1debd23fce5a7dc48ad539009b27879.png?ex=68e31296&is=68e1c116&hm=0d146c960f8ac90c01316d7c022e5636b8656e6ccb34df9f7734309ce8154d52&")
+  elif command_used == "otw":
+    embed.set_image(url="https://media1.tenor.com/m/PEZPq1ey8SgAAAAd/capybara-crocodile.gif")
   elif command_used == "":
     embed.set_image(url="")
   elif command_used == "":
