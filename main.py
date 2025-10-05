@@ -56,7 +56,8 @@ async def on_ready():
 @bot.command(aliases=["2", "hidup", "ngawor", "ksabar", "gamebayi", "taste",
                       "susu", "sekip", "aura", "hitam", "bukan",
                       "besok", "minggir", "ngetik", "ngocok", "anak",
-                      "romantis", "gtw"])
+                      "romantis", "gtw", "muak", "aas", "santai", "asu",
+                      "najis", 'gaterima', 'menggoda', 'bangun', 'otw'])
 #Remember
 # to add
 # aliases here
