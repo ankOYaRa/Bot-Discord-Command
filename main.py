@@ -57,7 +57,9 @@ async def on_ready():
                       "susu", "sekip", "aura", "hitam", "bukan",
                       "besok", "minggir", "ngetik", "ngocok", "anak",
                       "romantis", "gtw", "muak", "aas", "santai", "asu",
-                      "najis", 'gaterima', 'menggoda', 'bangun', 'otw'])
+                      "najis", 'gaterima', 'menggoda', 'bangun', 'otw',
+                      'okay', 'login', 'yntkts', 'fakemambo', 'mouse2',
+                      'kebabtish', 'sadboy', 'hooh'])
 #Remember
 # to add
 # aliases here
@@ -135,13 +137,23 @@ async def list(ctx):
   elif command_used == "bangun":
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424016097644118126/f1debd23fce5a7dc48ad539009b27879.png?ex=68e31296&is=68e1c116&hm=0d146c960f8ac90c01316d7c022e5636b8656e6ccb34df9f7734309ce8154d52&")
   elif command_used == "otw":
-    embed.set_image(url="https://media1.tenor.com/m/PEZPq1ey8SgAAAAd/capybara-crocodile.gif")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424292965743853578/87eed5ee8ffcd9ad4bade47acc5d0ebf.png?ex=68e4bd31&is=68e36bb1&hm=e1f6a8f32d22e7d2a8732fde8616809cec28ba70dc2a5d215bb53568f0952bcf&")
+  elif command_used == "okay":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424293103631859803/images.png?ex=68e4bd51&is=68e36bd1&hm=d78bdbdf9a2ea9bdbc8a4a476f4babb879057df00da2f05f7e2c74b4ad407d86&")
+  elif command_used == "login":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424295006843179079/images.png?ex=68e4bf17&is=68e36d97&hm=8aae374178b1a14685e5def74b6334a4827211335798e0d27fbdc5c7f2a1d9c1&")
+  elif command_used == "yntkts":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424295420930162728/images.png?ex=68e4bf7a&is=68e36dfa&hm=01e98f8c17950a783b8798882738a1915241cd88f7c490b9fb93e5f36c32c831&")
+  elif command_used == "fakemambo":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424753164757762048/image.png?ex=68e51849&is=68e3c6c9&hm=d1b1d976bfd8faafc647e9cef5403d9fcb3020e548a53c0fae7f56d7f61fa5ed&")
+  elif command_used == "mouse2":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424753269737263284/image.png?ex=68e51862&is=68e3c6e2&hm=6a334215d4c88663a64f5562b01159f6c2e09e4632113c73d4de07e547a77500&")
+  elif command_used == "kebabtish":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424753423995113575/image.png?ex=68e51886&is=68e3c706&hm=a7b30409dbbfcefb8cbec74ad7b81e6426ce2c5850845dab429bc5d4ebd17d3f&")
+  elif command_used == "sadboy":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424753519340027976/image.png?ex=68e5189d&is=68e3c71d&hm=88007f1770817c7b1267d40c5b273e635378c4ea4158bbba3d1599587dd4c3d9&")
+  elif command_used == "hooh":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424753756511146075/Ez9RBwFVcAID13r.png?ex=68e518d6&is=68e3c756&hm=4fb88f795e27f6e15d6a502fa42b99466ee73f26f588e0f4c714308f370df99f&")
   elif command_used == "":
     embed.set_image(url="")
   elif command_used == "":
