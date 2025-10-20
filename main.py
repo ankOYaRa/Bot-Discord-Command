@@ -59,7 +59,7 @@ async def on_ready():
                       "romantis", "gtw", "muak", "aas", "santai", "asu",
                       "najis", 'gaterima', 'menggoda', 'bangun', 'otw',
                       'okay', 'login', 'yntkts', 'fakemambo', 'mouse2',
-                      'kebabtish', 'sadboy', 'hooh'])
+                      'kebabtish', 'sadboy', 'hooh', 'bini', 'nanya', 'stecu'])
 #Remember
 # to add
 # aliases here
@@ -154,12 +154,12 @@ async def list(ctx):
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424753519340027976/image.png?ex=68e5189d&is=68e3c71d&hm=88007f1770817c7b1267d40c5b273e635378c4ea4158bbba3d1599587dd4c3d9&")
   elif command_used == "hooh":
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1424753756511146075/Ez9RBwFVcAID13r.png?ex=68e518d6&is=68e3c756&hm=4fb88f795e27f6e15d6a502fa42b99466ee73f26f588e0f4c714308f370df99f&")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
-  elif command_used == "":
-    embed.set_image(url="")
+  elif command_used == "bini":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1427884504370118837/image.png?ex=68f71412&is=68f5c292&hm=b328c465000228fad16d2a34631337620a2e37d0851f3477626bd610cda6996a&")
+  elif command_used == "nanya":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1429710390350057522/image.png?ex=68f7210f&is=68f5cf8f&hm=3d6374eaa030dabd570420cefaa4b4cd3ad597f73cad584b62bcecdcf8441db0&")
+  elif command_used == "stecu":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1429710516011401307/image.png?ex=68f7212d&is=68f5cfad&hm=2a7ed701599b4440c84c5bdcaeb15330cf30692b2a1ef72c9b4ad739bfba1288&")
   elif command_used == "":
     embed.set_image(url="")
   elif command_used == "":
