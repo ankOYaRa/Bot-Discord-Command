@@ -59,7 +59,8 @@ async def on_ready():
                       "romantis", "gtw", "muak", "aas", "santai", "asu",
                       "najis", 'gaterima', 'menggoda', 'bangun', 'otw',
                       'okay', 'login', 'yntkts', 'fakemambo', 'mouse2',
-                      'kebabtish', 'sadboy', 'hooh', 'bini', 'nanya', 'stecu'])
+                      'kebabtish', 'sadboy', 'hooh', 'bini', 'nanya',
+                      'stecu', "saya", "waktu", "nabung", "tidur", "wind"])
 #Remember
 # to add
 # aliases here
@@ -160,6 +161,16 @@ async def list(ctx):
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1429710390350057522/image.png?ex=68f7210f&is=68f5cf8f&hm=3d6374eaa030dabd570420cefaa4b4cd3ad597f73cad584b62bcecdcf8441db0&")
   elif command_used == "stecu":
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1429710516011401307/image.png?ex=68f7212d&is=68f5cfad&hm=2a7ed701599b4440c84c5bdcaeb15330cf30692b2a1ef72c9b4ad739bfba1288&")
+  elif command_used == "saya":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1434717496853659751/Z.png?ex=6935828b&is=6934310b&hm=e9190e45956904edbab9bf3996b53dd67ce66f5dcaed111dbfc079326f9d4c59&")
+  elif command_used == "waktu":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1436724130887237784/image.png?ex=69358f1d&is=69343d9d&hm=e456aabe7a99676d3e12226e9d2464f75615119c8d3c90b124e37387b22d382c&")
+  elif command_used == "nabung":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1443197766653181962/FB_IMG_1764142928523.jpg?ex=69356128&is=69340fa8&hm=17ea3e1004825256c968e0a95ff04145cd45b203f6d60562e92ee6b2ab03a72c&")
+  elif command_used == "tidur":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1444716065740554423/IMG_2214.jpg?ex=6935a12f&is=69344faf&hm=df31463541bc3a895047587b6a23cf77355649373f0bfd43c80cc87c11a681cb&")
+  elif command_used == "wind":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1446352002639728765/IMG_2216.png?ex=6935a605&is=69345485&hm=e758a0746360ea1d9767ab699f485550fd0fbe02da884ee9f9807a0e4f0a2c66&")
   elif command_used == "":
     embed.set_image(url="")
   elif command_used == "":
@@ -170,6 +181,9 @@ async def list(ctx):
     embed.set_image(url="")
   elif command_used == "":
     embed.set_image(url="")
+  elif command_used == "":
+    embed.set_image(url="")
+
 
 
   await ctx.send(embed=embed)
