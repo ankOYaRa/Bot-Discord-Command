@@ -60,7 +60,7 @@ async def on_ready():
                       "najis", 'gaterima', 'menggoda', 'bangun', 'otw',
                       'okay', 'login', 'yntkts', 'fakemambo', 'mouse2',
                       'kebabtish', 'sadboy', 'hooh', 'bini', 'nanya',
-                      'stecu', "saya", "waktu", "nabung", "tidur", "wind"])
+                      'stecu', "saya", "waktu", "nabung", "tidur", "wind", "celah"])
 #Remember
 # to add
 # aliases here
@@ -171,8 +171,8 @@ async def list(ctx):
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1444716065740554423/IMG_2214.jpg?ex=6935a12f&is=69344faf&hm=df31463541bc3a895047587b6a23cf77355649373f0bfd43c80cc87c11a681cb&")
   elif command_used == "wind":
     embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1446352002639728765/IMG_2216.png?ex=6935a605&is=69345485&hm=e758a0746360ea1d9767ab699f485550fd0fbe02da884ee9f9807a0e4f0a2c66&")
-  elif command_used == "":
-    embed.set_image(url="")
+  elif command_used == "celah":
+    embed.set_image(url="https://cdn.discordapp.com/attachments/1422464446017699840/1472973522144989328/image.png?ex=699484fe&is=6993337e&hm=e8012e1dc4ab009a643301b559650e3ad4efd08970d35b1495161c079c49c08a&")
   elif command_used == "":
     embed.set_image(url="")
   elif command_used == "":
